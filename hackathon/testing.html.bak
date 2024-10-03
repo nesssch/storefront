@@ -1,0 +1,20 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<script>
+function changeImage() {
+    if (document.getElementById("bar").src == "https://cdn.discordapp.com/attachments/1237194555586121763/1271655530108157962/image.png?ex=66b82100&is=66b6cf80&hm=2a0a9bf04a216c4b73e9d954c5f641988c2cf13f35735c8c726f468db5d5f92e&")
+		{document.getElementById("bar").src = "https://cdn.discordapp.com/attachments/1237194555586121763/1271660829451751445/image.png?ex=66b825f0&is=66b6d470&hm=bb45e0130b0a4f8061416c045ff7f7711f68511c2f9b39e6ffeb93148883f424&";}
+}
+</script>
+
+<p id="demo"></p>
+
+<img id = "bar" src = https://cdn.discordapp.com/attachments/1237194555586121763/1271655530108157962/image.png?ex=66b82100&is=66b6cf80&hm=2a0a9bf04a216c4b73e9d954c5f641988c2cf13f35735c8c726f468db5d5f92e&></img>
+<button type="button" onclick="changeImage()">some event which causes the likelihood to change</button>
+
+</body>
+</html> 
